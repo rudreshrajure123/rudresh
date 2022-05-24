@@ -1,0 +1,11 @@
+package inteerface;
+
+public class Son implements ParentA, ParentB {
+	public void land(){
+		System.out.println(" ParentA = land");
+		
+	} 
+	public void gold() {
+		System.out.println("ParentB = gold");
+	}
+}
